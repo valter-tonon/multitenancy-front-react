@@ -44,7 +44,6 @@ export const Checkout = () => {
 
     return (
         <div className="content-payment" style={{backgroundColor: "#1c1c1c", height: "100vh"}}>
-
             <NavImg/>
             <section className="payment">
                 <div className="container">

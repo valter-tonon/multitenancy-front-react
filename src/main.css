@@ -9946,6 +9946,7 @@ h3 {
   }
   body {
     min-width: 992px !important;
+    margin: 0;
   }
 
   .container {
@@ -10022,7 +10023,6 @@ iframe {
 }
 
 .content-payment-success, .content-payment, .content-plans, .content-home {
-
   min-height: calc(100% - 50px);
   height: auto;
   background: #0f6674;
@@ -10071,22 +10071,22 @@ iframe {
 
 @media only screen and (min-width: 768px) {
   .content-home {
-    background: url("assets/images/grupo_381.png") right -500px top no-repeat, url("assets/images/back.png") center top no-repeat;
+    background: url("assets/images/grupo_381.png") right -500px top no-repeat, url("assets/images/back.png") center top repeat;
   }
 }
 @media only screen and (min-width: 992px) {
   .content-home {
-    background: url("assets/images/grupo_381.png") right -250px top no-repeat, url("assets/images/back.png") center top no-repeat;
+    background: url("assets/images/grupo_381.png") right -250px top no-repeat, url("assets/images/back.png") center top repeat;
   }
 }
 @media only screen and (min-width: 1200px) {
   .content-home {
-    background: url("assets/images/grupo_381.png") right top no-repeat, url("assets/images/back.png") center top no-repeat;
+    background: url("assets/images/grupo_381.png") right top no-repeat, url("assets/images/back.png") center top;
   }
 }
 @media only screen and (min-width: 1700px) {
   .content-home {
-    background: url("assets/images/grupo_381.png") right 200px top no-repeat, url("assets/images/back.png") center top no-repeat;
+    background: url("assets/images/grupo_381.png") right 200px top no-repeat, url("assets/images/back.png") center top ;
   }
 }
 @media only screen and (min-width: 992px) {

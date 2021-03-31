@@ -18,7 +18,7 @@ export const Planos = () => {
         })()
     },[])
     return (
-        <div className="content-plans" style={{backgroundColor: '#1c1c1c', height: '100vh'}}>
+        <div className="content-plans">
             <section className="plans">
                 <div className="container">
 
